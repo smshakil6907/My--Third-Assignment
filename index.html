@@ -20,25 +20,29 @@
             crossorigin="anonymous"></script>
         <script>
                 tailwind.config = {
-                  theme: {
-                    extend: {
-                      colors: {
-                        clifford: '#da373d',
-                        'button-color': '#ABEF5F',
-                        'text-color': '#737373',
-                        'button2-color': '#D4F6AE',
-                        'bg-color': '#F4F4F4',
-                        'bg-color1': '#E7C1D3',
-                        'bg-color2': '#EFDA6E',
-                        'bg-color3': '#A4DAC3',
-                        'bg-color4': '#77AAEA',
-                      }
-                    }
-                  }
+                    theme: {
+                        extend: {
+                            colors: {
+                                clifford: '#da373d',
+                                'button-color': '#ABEF5F',
+                                'text-color': '#737373',
+                                'button2-color': '#D4F6AE',
+                                'bg-color': '#F4F4F4',
+                                'bg-color1': '#E7C1D3',
+                                'bg-color2': '#EFDA6E',
+                                'bg-color3': '#A4DAC3',
+                                'bg-color4': '#77AAEA',
+                            },
+                            fontFamily: {
+                                manrope: ['Manrope', 'system-ui'],
+                            },
+                        },
+                    },
                 }
-              </script>
+            </script>
+
     </head>
-    <body>
+    <body class="font-manrope">
         <header
             class="bg-gradient-to-b rgba(255, 255, 255, 1) rgba(255, 255, 255, 0)">
             <!-- navbar start -->
